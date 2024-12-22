@@ -15,4 +15,5 @@ The **minimalist design** highlights architectural elements while ensuring seaml
 
 # **📷 Screenshots**
 ![Screenshot](./screenshot/img1.PNG)
-![Screenshot](./screenshot/img1.PNG)
+
+![Screenshot](./screenshot/img2.PNG)
