@@ -14,5 +14,5 @@ The **minimalist design** highlights architectural elements while ensuring seaml
 - **Modern UI/UX Design**
 
 # **📷 Screenshots**
-![Screenshot]('./screenshot/img1.PNG')
-![Screenshot]('./screenshot/img1.PNG')
+![Screenshot](./screenshot/img1.PNG)
+![Screenshot](./screenshot/img1.PNG)
