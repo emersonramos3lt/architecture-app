@@ -62,7 +62,7 @@ const Footer = () => {
                 <div>
                     <p className='text-white mb-4 text-[0.9rem] font-semibold'>Sign up to receive the latest updates on new projects<br /> and exclusive offers</p>
                     <Form action='#' className='flex'>
-                        <input name='email' type='email' placeholder='Enter your email address' required className='bg-zinc-700 p-2 lg:w-[350px] w-[80%] mr-2'/>
+                        <input name='email' type='email' placeholder='Enter your email address' required className='bg-zinc-700 text-white p-2 lg:w-[350px] w-[80%] mr-2'/>
                         <input type="submit" value='Sign up' className='text-white border border-white p-2 px-4 lg:px-6 font-medium cursor-pointer transition-colors hover:bg-white hover:text-footerBg' />
                     </Form>
                 </div>
