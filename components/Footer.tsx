@@ -54,7 +54,7 @@ const Footer = () => {
                  <div className='flex flex-col lg:flex-row gap-8 lg:items-end items-center justify-center order-last lg:order-none'>
                     <span className=' lg:text-9xl text-7xl font-medium text-white'>PRISMA</span>
                     <span className='text-zinc-400 '>©2025</span>
-                    <Link href='https://www.linkedin.com/in/emerson-ramos-18057333a/' className='text-white font-semibold hover:underline underline-offset-2' target='_blank'>
+                    <Link href='https://github.com/emersonramos3lt' className='text-white font-semibold hover:underline underline-offset-2' target='_blank'>
                         Made by Emerson
                     </Link>
                 </div>
