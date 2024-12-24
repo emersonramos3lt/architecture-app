@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import { Carousel, CarouselContent, CarouselItem } from './ui/carousel'
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from './ui/carousel'
 import ScrollWrapper from './ScrollWrapper'
 
 const Projects = () => {
@@ -52,6 +52,8 @@ const Projects = () => {
 
     </CarouselItem>
   </CarouselContent>
+  <CarouselPrevious  className='hidden lg:flex'/>
+  <CarouselNext  className='hidden lg:flex'/>
 </Carousel>
     </section>
     </ScrollWrapper>
