@@ -31,7 +31,9 @@ const Navbar = () => {
 
        <div className='lg:hidden'>
        <Sheet>
-            <SheetTrigger><Image src='/menu-icon.svg' alt='Menu' width={30} height={30}/></SheetTrigger>
+            <SheetTrigger>
+                <Image src='/menu-icon.svg' alt='Menu' width={30} height={30}/>
+            </SheetTrigger>
                 <SheetContent side='right'>
                     <SheetHeader>
                          <SheetTitle className='mb-[3rem]'></SheetTitle>
@@ -75,7 +77,10 @@ const Navbar = () => {
                     Contact
             </Link>
 
-            <span className='cursor-pointer hover:underline'>EN</span>
+            <span className='cursor-pointer hover:underline'>
+                EN
+                <span className='sr-only'>Change language</span>
+            </span>
        </div>
     </nav>
   )
