@@ -52,8 +52,8 @@ const Projects = () => {
 
     </CarouselItem>
   </CarouselContent>
-  <CarouselPrevious  className='hidden lg:flex'/>
-  <CarouselNext  className='hidden lg:flex'/>
+  <CarouselPrevious  className='hidden lg:flex bg-zinc-800 text-white transition-colors hover:bg-zinc-700 hover:text-white w-[45px] h-[45px]'/>
+  <CarouselNext  className='hidden lg:flex bg-zinc-800 text-white transition-colors hover:bg-zinc-700 hover:text-white w-[45px] h-[45px]'/>
 </Carousel>
     </section>
     </ScrollWrapper>
