@@ -11,7 +11,7 @@ const About = () => {
       <div className='lg:grid lg:grid-cols-2 lg:gap-4 flex flex-col'>
         <div>
           <h1 className='text-xl font-semibold text-gray-700 mb-5'>About Prisma</h1>
-          <p className='line-height text-xl lg:text-4xl lg:leading-[3rem] font-medium mb-8 lg:mb-0'>Prisma Architecture is dedicated to crafting innovative and sustainable designs that seamlessly blend beauty, functionality, and purpose.</p>
+          <p className='line-height text-2xl lg:text-4xl lg:leading-[3rem] font-medium mb-8 lg:mb-0'>Prisma Architecture is dedicated to crafting innovative and sustainable designs that seamlessly blend beauty, functionality, and purpose.</p>
         </div>
 
         <div>
@@ -29,7 +29,7 @@ const About = () => {
         <ScrollWrapper>
        <div className='mt-[10rem]'>
         <h1 className='text-xl font-semibold text-gray-700 mb-5 text-center'>Our Heritage</h1>
-        <p className='line-height text-xl lg:text-4xl font-medium text-center'>Founded on the principles of innovation and excellence, Prisma Architecture began as a small studio with a bold vision: to redefine modern spaces.</p>
+        <p className='line-height text-2xl lg:text-4xl font-medium text-center'>Founded on the principles of innovation and excellence, Prisma Architecture began as a small studio with a bold vision: to redefine modern spaces.</p>
        
        <div className='flex justify-center mb-[4rem] mt-[2rem]'>
         <Button 
