@@ -9,13 +9,13 @@ const Navbar = () => {
        <div className='lg:block hidden'>
         <Link 
                 href='/'
-                className='mr-8 font-medium hover:underline'>
+                className='mr-12 font-medium hover:underline'>
                     Products
             </Link>
 
             <Link 
                 href='/'
-                className='mr-8 font-medium hover:underline'>
+                className='mr-12 font-medium hover:underline'>
                     About
             </Link>
 
@@ -72,7 +72,7 @@ const Navbar = () => {
        <div className='flex'>
             <Link 
                 href='/'
-                className='hidden lg:flex lg:mr-5 lg:ml-[7rem] font-medium hover:underline'>
+                className='hidden lg:flex lg:mr-12 lg:ml-[7rem] font-medium hover:underline'>
                     Contact
             </Link>
 
