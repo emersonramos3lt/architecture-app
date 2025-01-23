@@ -7,7 +7,7 @@ interface revealProps {
 
 const ScrollWrapper = ({ children }: revealProps) => {
     return (
-        <RevealWrapper duration={1200} mobile={false} desktop={true} origin='bottom'>
+        <RevealWrapper duration={1500} mobile={true} desktop={true} origin='bottom'>
         {children}
         </RevealWrapper>
     );
